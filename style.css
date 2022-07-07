@@ -76,7 +76,7 @@ li{
 .block-home{
     margin-left: 15%;
     width: 60%;
-    height: 50vh;
+    height: auto;
     text-align: center;
     padding: 10%;
 }
