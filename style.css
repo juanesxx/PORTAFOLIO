@@ -1,0 +1,274 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background-color:  #242c3c;
+}
+
+.nav{
+    background-color: transparent;
+}
+
+span{
+    color: orange;
+}
+
+.logo{
+    margin: 20px 50px;
+    transition: .4s;
+    font-size: 50px;
+
+}
+
+.logo:hover{
+    transform: scale(1.5);
+}
+.block-title h1{
+    font-size: 75px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 2%;
+
+}
+
+header ul a{
+    padding-top: 20px;
+    font-size: 40px;
+    background-color: #242c3c;
+    color: black;
+
+}
+
+
+header ul a:hover{
+    background-color: #3CC0DE;
+}
+
+header ul a:active{
+    background-color: rgba(60, 192, 222, 0.1);
+}
+
+
+li{
+    margin: 0.75rem;
+    list-style: none;
+    background-color: transparent;
+}
+
+.block-home{
+    margin-left: 15%;
+    width: 60%;
+    height: 50vh;
+    text-align: center;
+    padding: 10%;
+}
+
+.text-description{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.block-person{
+    float: left;
+    width: 60%;
+    text-align: justify;
+    margin: 0%, 0%, 3%, 2%;
+}
+
+.block-img-person{
+    display: inline-block;
+    width: 30%;
+    margin-left: 0%;
+}
+
+.img-person{
+    width: 70%;
+    display: inline-block;
+    border-style: solid;
+
+}
+
+.section-two{
+    background-color: white;
+    padding: 200px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.text-likes{
+    width: 550px;
+    margin-left: 50px;
+}
+
+.text-likes h1{
+    background-color: white;
+    color: #242c3c;
+    font-size: 75px;
+    font-weight: bold;
+    padding-left: 400px;
+    width: 500px;
+}
+
+.p-likes{
+    background-color: white;
+    color: #242c3c;
+    font-size: 30px;
+    text-align: justify;
+    font-family: 'Trebuchet MS';
+    width: 1000px;
+    
+}
+.block-p{
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 400px;
+    width: 100%;
+}
+
+
+.section-knowledge{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1{
+    font-size: 75px;
+    font-weight: bold;
+}
+.contact{
+    width: 100%;
+    text-align: center;
+}
+.contact h1{
+    font-size: 40px;
+
+}
+
+.contact .imgs{
+    display: flex;
+    justify-content: center;
+}
+
+.contact img{
+    background-color: transparent;
+
+    width: 200px;
+    transition: .4s;
+}
+.contact img:hover{
+    transform: scale(1.5);
+}
+
+.progress{
+    display: flex;
+    overflow: hidden;
+    font-size: .75rem;
+    line-height: 1rem;
+    text-align: center;
+    background-color: #e9ecef;
+    border-radius: 0.35rem;
+    width: 500px;
+}
+.bar-progress-80{
+    width: 80%;
+    animation-name: progress80 1.8s;
+}
+
+.bar-progress-90{
+    width: 90%;
+    animation: progress90 2s;
+}
+
+.bar-progress-100{
+    width: 100%;
+    animation: progress100 2s;
+}
+
+.bar-progress{
+    height: 1rem;
+    background-color: #3CC0DE;
+}
+
+.text-knowledge{
+    text-align: start;
+    padding-left: 200px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+
+
+@keyframes progress80 {
+    from {width: 0%;}
+    to {width: 80%;}
+}
+
+
+@keyframes progress90 {
+    from {width: 0%;}
+    to {width: 90%;}
+}
+
+
+@keyframes progress100 {
+    from {width: 0%;}
+    to {width: 100%;}
+}
+
+h2{
+    font-size: 45px;
+    margin-top: 50px;
+    text-align: start;
+    padding-left: 200px;
+    margin-bottom: 50px;
+}
+
+.skills{
+    display: flex;
+    padding-left: 15%;   
+    padding-top: 2%; 
+}
+
+.life-skills
+{
+    height: 1000px;
+}
+
+.img-likes{
+    background-color: white;
+    margin-left: 900px;
+    width: 900px;
+}
+.content-two{
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
