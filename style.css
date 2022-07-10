@@ -167,12 +167,6 @@ li{
     justify-content: center;
 }
 
-.contact img{
-    background-color: transparent;
-
-    width: 75px;
-    transition: .4s;
-}
 .contact img:hover{
     transform: scale(1.5);
 }
@@ -264,4 +258,21 @@ h2{
 
 }
 
+.instagram{
+    background-color: transparent;
 
+    width: 75px;
+    transition: .4s;
+}
+
+.linkedIn{
+    background-color: transparent;
+    width: 75px;
+    transition: .4s;
+}
+.outlook{
+    width: 50px;
+    transition: .4s;
+    margin-top: 10px;
+    margin-left: 10px;
+}
